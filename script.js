@@ -10,8 +10,9 @@ function calcularimc(altura, peso){
 
     let imc = peso / (altura**2);
 
-    alert("Seu IMC é de: "+imc);
-    alert
+    let isGrupoDeRisco = imc >= 30 ? true : false;
+
+    alert("Você é do grupo de risco? "+ isGrupoDeRisco +", pois seu IMC é :"+imc);
 
 }
 
